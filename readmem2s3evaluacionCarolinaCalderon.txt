@@ -4,5 +4,5 @@ Sección: 068
 Ejercicio Evaluación Módulo II, sesión 03, Crear tabla con colores.
 
 
-Para acceder a este proyecto, utilice el comando git clone  
+Para acceder a este proyecto, utilice el comando git clone  https://github.com/CaroCalderonM/m2s3ccmevaluacion.git
 Repositorio Github https://github.com/CaroCalderonM
