@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--indicación para navegadores antiguos-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> <!--script para navegadores antiguos-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script> <!--script para navegadores antiguos-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Mod2S3Eval_CCalderon</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-
+    <title>Mod2_Ses3_Drilling Carolina Calderon</title>
+    <link rel="stylesheet" href="assets/css/style.css"> <!-- línea de comando que hace referencia al el(los) archivo(s) css -->
+    
 </head>
-<body>
-    
-    <h1 style="text-align:center">Botones con Diferentes Estilos</h1> 
 
-        <div class="button-container"> 
-            <button class="primary-btn" id="bordes">Botón Primario</button> 
-            <button class="secondary-btn" id="bordes">Botón Secundario</button> 
-            <button class="success-btn" id="bordes">Botón de Éxito</button> 
-            <button class="danger-btn" id="bordes">Botón de Peligro</button> 
-        </div>
-    
+<body>
+    <table>
+        <tr>
+            <td id="rojo">ROJO</td>
+            <td id="blanco">BLANCO</td>
+            <td id="verde">VERDE</td>
+            <td id="gris">GRIS</td>
+        </tr>
+        <tr>
+            <td rowspan="2" id="cafe">CAFÉ</td>
+            <td id="azul">AZUL</td>
+            <td colspan="2" id="violeta">VIOLETA</td>
+        </tr>
+        <tr>
+            <td id="rosado">ROSADO</td>
+            <td rowspan="2" id="amarillo">AMARILLO</td>
+            <td id="turquesa">TURQUESA</td>
+        </tr>
+        <tr>
+            <td id="naranjo">NARANJO</td>
+            <td id="purpura">PÚRPURA</td>
+            <td id="negro">NEGRO</td>
+        </tr>
+    </table>
 </body>
+
 </html>
